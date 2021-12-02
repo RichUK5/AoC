@@ -1,3 +1,5 @@
+# Scroll to the bottom to see the actual code
+
 #
 $PuzzleData = @"
 104
