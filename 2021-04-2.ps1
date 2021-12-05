@@ -703,7 +703,7 @@ foreach ($Number in $NumberArray) {
         $Board = $Boards[$B]
         if ($Board.CheckNumber($Number) -eq $true) {
             if ($Boards.Count -gt 1) {
-                $Boards.Remove($Board)
+                $null = $Boards.Remove($Board)
                 $B--
                 continue
             }
